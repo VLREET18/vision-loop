@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const portfolioItems = [
   {
-    title: "Kanki Dham Video Shoot",
+    title: "Kanki Dham",
     category: "Social Media",
     video: "https://bxtmynkzbpndldeknpaf.supabase.co/storage/v1/object/public/vision/project1.mp4",
   },
@@ -17,12 +17,12 @@ const portfolioItems = [
     video: "https://bxtmynkzbpndldeknpaf.supabase.co/storage/v1/object/public/vision/project2.mp4",
   },
   {
-    title: "Rajendra Stadium Editing",
+    title: "Shree gaurav krishna gaushshami jii krishna katha",
     category: "Video Editing",
     video: "https://bxtmynkzbpndldeknpaf.supabase.co/storage/v1/object/public/vision/project3.mp4",
   },
   {
-    title: "Don Bosco School Marketing Campaign",
+    title: "Bright Career Global School",
     category: "Marketing",
     video: "https://bxtmynkzbpndldeknpaf.supabase.co/storage/v1/object/public/vision/project4.mp4",
   },
