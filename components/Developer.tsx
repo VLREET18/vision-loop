@@ -138,7 +138,7 @@ export default function Developer() {
                   </a>
 
                   <a
-                    href="https://wa.me/9798406286"
+                    href="https://wa.me/919798406286"
                     className="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 transition hover:bg-blue-600"
                   >
                     <FaWhatsapp size={20}/>
@@ -252,7 +252,7 @@ export default function Developer() {
               
 
               <a
-                href="https://wa.me/9798406286"
+                href="https://wa.me/919798406286"
                 className="group inline-flex items-center gap-3 rounded-full border border-blue-400/30 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-lg transition-all duration-300 hover:border-blue-400 hover:bg-blue-600"
               >
                 <Sparkles size={20} />
