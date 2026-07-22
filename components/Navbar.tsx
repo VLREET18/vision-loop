@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-8 h-20">
 
           {/* Logo */}
-              <Link href="/" className="flex items-center gap-3">
+              
                 <Image
                   src="/logo.png" // Replace with your logo filename
                   alt="Vision Loop Logo"
@@ -62,7 +62,7 @@ export default function Navbar() {
                     Social Media Agency
                   </p>
                 </div>
-              </Link>
+             
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
