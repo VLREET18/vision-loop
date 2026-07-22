@@ -316,7 +316,7 @@ export default function Contact() {
           </p>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919135976609"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex items-center rounded-full bg-white px-8 py-4 font-semibold text-blue-700 transition duration-300 hover:scale-105"
