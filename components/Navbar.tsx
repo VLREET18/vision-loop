@@ -42,7 +42,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="https://i.ibb.co/WvGCpN31/Screenshot-2026-07-22-014232.png" className="flex items-center gap-3">
             <div className="w-11 h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-lg shadow-lg">
-              VL
+              
             </div>
 
             <div>
