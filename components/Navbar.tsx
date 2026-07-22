@@ -120,9 +120,7 @@ export default function Navbar() {
 
 
               
-              <button className="btn-primary mt-3">
-                Book a Call
-              </button>
+             
 
             </div>
           </motion.div>
