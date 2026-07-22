@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import Image from "next/image";
+
+
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
@@ -40,21 +43,26 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-8 h-20">
 
           {/* Logo */}
-          <Link href="https://i.ibb.co/WvGCpN31/Screenshot-2026-07-22-014232.png" className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-lg shadow-lg">
-              
-            </div>
+              <Link href="/" className="flex items-center gap-3">
+                <Image
+                  src="/logo.png" // Replace with your logo filename
+                  alt="Vision Loop Logo"
+                  width={44}
+                  height={44}
+                  className="rounded-xl object-contain"
+                  priority
+                />
 
-            <div>
-              <h1 className="text-2xl font-extrabold tracking-wide text-black">
-                VISION LOOP
-              </h1>
+                <div>
+                  <h1 className="text-2xl font-extrabold tracking-wide text-black">
+                    VISION LOOP
+                  </h1>
 
-              <p className="text-xs text-gray-600 -mt-1">
-                Social Media Agency
-              </p>
-            </div>
-          </Link>
+                  <p className="text-xs text-gray-600 -mt-1">
+                    Social Media Agency
+                  </p>
+                </div>
+              </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
